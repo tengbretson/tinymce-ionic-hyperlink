@@ -1,0 +1,18 @@
+{
+  "name": "tinymce-ionic-hyperlink",
+  "homepage": "https://github.com/Branch2/tinymce-ionic-hyperlink",
+  "authors": [
+    "Tanner Engbretson <tanner@engbretson.us>"
+  ],
+  "description": "A plugin for embedding Ionic compatible links into TinyMCE",
+  "main": "dist/plugin.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
