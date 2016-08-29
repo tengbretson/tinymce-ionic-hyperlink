@@ -1,6 +1,6 @@
 declare const tinymce;
 
-tinymce.PluginManager.add('ionic-hyperlink', editor => {
+tinymce.PluginManager.add('ionichyperlink', editor => {
   const HYPERLINK_BUTTON = `
     data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAACQFBMVE
     X///8zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMz
@@ -44,7 +44,7 @@ tinymce.PluginManager.add('ionic-hyperlink', editor => {
     5CYII=
   `.replace(/\s/g, '');
 
-  editor.addButton('ionic-hyperlink', {
+  editor.addButton('ionichyperlink', {
     icon: true,
     image: HYPERLINK_BUTTON,
     tooltip: 'Insert Link',
